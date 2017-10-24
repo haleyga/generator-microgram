@@ -2,3 +2,5 @@ node_modules/
 coverage/
 
 .idea/
+
+generators/app/templates/**/*.js
