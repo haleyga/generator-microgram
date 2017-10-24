@@ -1,12 +1,12 @@
 {
-  "name": "generator-test-1",
+  "name": "generator-microgram",
   "version": "0.0.0",
-  "description": "A generator used to test the yeoman generator-generator functionality.",
-  "homepage": "www.example.com",
+  "description": "Yeoman generator for a uGram-compatible microservice.",
+  "homepage": "",
   "author": {
     "name": "Graham Haley",
     "email": "graham.andrew.haley@gmail.com",
-    "url": ""
+    "url": "https://haleyhousellc.com"
   },
   "files": [
     "generators"
@@ -76,6 +76,6 @@
       "prettier"
     ]
   },
-  "repository": "haleyga/generator-test-1",
+  "repository": "https://github.com/haleyga/generator-microgram.git",
   "license": "ISC"
 }
