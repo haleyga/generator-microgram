@@ -1,5 +1,5 @@
 # generator-microgram [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> A generator used to test the yeoman generator-generator functionality.
+> Yeoman generator for a uGram-compatible microservice.
 
 ## Installation
 
