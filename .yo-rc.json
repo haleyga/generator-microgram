@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Graham Haley",
+      "authorEmail": "graham.andrew.haley@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
