@@ -1,12 +1,15 @@
 {
-  "name": "<%= projectName %>",
+  "name": "<%= appName %>",
   "version": "<%= initialVersion %>",
-  "description": "<%= projectDescription %>",
+  "description": "<%= appDescription %>",
   "main": "node dist/es6/src/server.js",
   "scripts": {
     "prebuild": "rm -rf dist/es6",
     "build": "tsc",
-    "test": "<$= testScript %>"
+    "prebuildandrun": "npm run build",
+    "buildandrun": "npm run start",
+    "start": "node dist/es6/server.js",
+    "test": "npm run test"
   },
   "author": "<%= author %>",
   "dependencies": {

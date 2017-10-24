@@ -11,8 +11,8 @@ export const defaultRouter: Router = Router();
 const getDefaultValidations: ValidationChain[] = [];
 
 export const getDefault = async (request: Request, response: Response) => {
-    const errors = [];
-    const message = "howdy!";
+    const errors: string[] = [];
+    const message: {} = "howdy!";
 
     response.status(HttpStatus.Ok).send({ message, errors });
 };
