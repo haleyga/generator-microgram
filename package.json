@@ -13,7 +13,8 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
+    "microgram",
+    "microservice",
     "yeoman-generator"
   ],
   "devDependencies": {

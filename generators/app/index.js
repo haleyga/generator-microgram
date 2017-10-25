@@ -101,10 +101,6 @@ module.exports = class extends Generator {
             this.destinationPath('src/controllers/ping.ts'));
 
         this.fs.copy(
-            this.templatePath('src/db/_db.ts'),
-            this.destinationPath('src/db/db.ts'));
-
-        this.fs.copy(
             this.templatePath('src/models/_default.ts'),
             this.destinationPath('src/models/default.ts'));
 
