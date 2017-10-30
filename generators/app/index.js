@@ -112,16 +112,16 @@ module.exports = class extends Generator {
     _writeTestDir() {
         this.fs.copy(
             this.templatePath('test/_default.ts'),
-            this.destinationPath('logs/default.ts'));
+            this.destinationPath('test/default.ts'));
         this.fs.copy(
             this.templatePath('test/_health.ts'),
-            this.destinationPath('logs/health.ts'));
+            this.destinationPath('test/health.ts'));
         this.fs.copy(
             this.templatePath('test/_meta.ts'),
-            this.destinationPath('logs/meta.ts'));
+            this.destinationPath('test/meta.ts'));
         this.fs.copy(
             this.templatePath('test/_ping.ts'),
-            this.destinationPath('logs/ping.ts'));
+            this.destinationPath('test/ping.ts'));
     }
 
     _writeProjectRoot() {
