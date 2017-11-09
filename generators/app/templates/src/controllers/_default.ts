@@ -12,7 +12,7 @@ const getDefaultValidations: ValidationChain[] = [];
 
 export const getDefault = async (request: Request, response: Response) => {
     const errors: string[] = [];
-    const message: {} = "howdy!";
+    const message: {} = 'howdy!';
 
     response.status(HttpStatus.Ok).send({ message, errors });
 };
