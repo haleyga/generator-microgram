@@ -105,13 +105,13 @@ module.exports = class extends Generator {
         this.fs.copy(
             this.templatePath('src/services/_default.ts'),
             this.destinationPath('src/services/default.ts'));
-    },
+    }
 
     _writeStoreDir() {
         this.fs.copy(
             this.templatePath('src/store/_store.ts'),
             this.destinationPath('src/store/store.ts'));
-    },
+    }
 
     _writeTestDir() {
         this.fs.copy(
