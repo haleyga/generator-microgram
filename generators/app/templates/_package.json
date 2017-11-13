@@ -9,7 +9,7 @@
     "prebuildandrun": "npm run build",
     "buildandrun": "npm run start",
     "start": "node dist/es6/server.js",
-    "test": "npm run test"
+    "test": ""
   },
   "author": "<%= author %>",
   "dependencies": {
