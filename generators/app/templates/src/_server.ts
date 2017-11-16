@@ -2,7 +2,7 @@
  * Module dependencies.
  */
 import * as bodyParser from 'body-parser';
-import * as compression from 'compression';  // compresses requests
+import * as compression from 'compression';
 import * as connectRedis from 'connect-redis';
 import * as dotenv from 'dotenv';
 import * as errorHandler from 'errorhandler';
@@ -34,6 +34,17 @@ import { pingRouter } from './controllers/ping';
  * API keys and Passport configuration.
  */
 //import * as passportConfig from './config/passport';
+
+
+/**
+ * Ensure logs files exist.
+ */
+import * as touch from 'touch';
+if (!fs.existsSync('./logs')) fs.mkdirSync('./logs');
+touch.sync('logs/access.log');
+touch.sync('logs/error.log');
+touch.sync('logs/exception.log');
+touch.sync('logs/info.log');
 
 
 /**
